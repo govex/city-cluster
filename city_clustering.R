@@ -7,7 +7,7 @@
 ## This file is also designed to be a tutorial for users wanting to replicate and maniupulate the analysis.
 
 ## First, download city indicator dataset. This includes data from the American Community Survey, State and Local Government Finance Survey, and the Government Employment and Payroll Survey. 
-## https://drive.google.com/open?id=0B9FLZ57ziQq5UVZrQnJOYkFpMHc
+## https://github.com/govex/city-cluster/blob/master/city_indicator_dataset.csv
 
 ## Load data
 data <- read.csv("~/Downloads/city_indicator_dataset.csv")
