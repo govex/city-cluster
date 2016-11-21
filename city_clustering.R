@@ -28,7 +28,7 @@ high_weight = 50
 
 ## Assign variable names to dataset columns.
 ## Categorical variables (names, regions, etc.) should be stored as factors.
-## Multiple variables by desired weight factor.
+## Multiply variables by desired weight factor.
 ## This model is weighted to boost size and shape variables. 
 x0 <- as.character.factor(data$CityName)
 x1 <- mmscalar(data$X2013pop) * high_weight
